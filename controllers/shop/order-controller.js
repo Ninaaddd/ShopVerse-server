@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "https://shop-versee.vercel.app/:5173/shop/paypal-return",
-        cancel_url: "https://shop-versee.vercel.app/:5173/shop/paypal-cancel",
+        return_url: "https://shopverse-kmmo.onrender.com:5173/shop/paypal-return",
+        cancel_url: "https://shopverse-kmmo.onrender.com:5173/shop/paypal-cancel",
       },
       transactions: [
         {
